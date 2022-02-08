@@ -1,5 +1,4 @@
 function slider() {
-    // Slider
 
     let offset = 0;
     let slideIndex = 1;
@@ -48,7 +47,7 @@ function slider() {
         margin-right: 15%;
         margin-left: 15%;
         list-style: none;
-    `; // Если хотите - добавьте в стили, но иногда у нас нет доступа к стилям
+    `; 
     slider.append(indicators);
 
     for (let i = 0; i < slides.length; i++) {
@@ -117,7 +116,7 @@ function slider() {
         }
 
         if (slides.length < 10) {
-            current.textContent =  `0${slideIndex}`;
+            current.textContent = `0${slideIndex}`;
         } else {
             current.textContent =  slideIndex;
         }
@@ -151,4 +150,4 @@ function slider() {
     }
 }
 
-module.exports = slider;
+export default slider;
