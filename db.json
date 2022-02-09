@@ -27,6 +27,11 @@
       "name": "ich_mowgli",
       "phone": "+38(095)221-8803",
       "id": 1
+    },
+    {
+      "name": "rt",
+      "phone": "tr",
+      "id": 2
     }
   ]
 }
